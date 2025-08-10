@@ -44,7 +44,7 @@ jj st"
             [ -n "${kak_client_env_TMUX:-}" ] && additional_keybindings="
 ${kak_opt_fzf_horizontal_map:-ctrl-s}: open file in horizontal split
 ${kak_opt_fzf_vertical_map:-ctrl-v}: open file in vertical split"
-            message="Open single or multiple files from git tree.
+            message="Open single or multiple files from file tree.
 <ret>: open file in new buffer.
 ${kak_opt_fzf_window_map:-ctrl-w}: open file in new terminal $additional_keybindings"
             printf "%s\n" "info -title %{$title} %{$message}"
